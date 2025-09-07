@@ -28,7 +28,7 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-              to="/signup"
+              to="/sign-up"
               className={({ isActive }) =>
                 `hover:underline ${isActive ? "font-semibold" : ""}`
               }
